@@ -1,0 +1,1444 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+body {
+  font-family: 'Be Vietnam Pro', 'Inter', 'Poppins', Arial, Helvetica, sans-serif;
+  background-color: #f8f9fa;
+
+}
+
+
+.container-fluid {
+  padding: 0;
+}
+
+.card {
+  border: none;
+  background: transparent; 
+  margin-bottom: 1rem;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  /* margin: 20px; */
+
+ 
+}
+
+
+
+.card-title {
+  font-weight: bold;
+}
+
+.card-text {
+  font-size: 0.9rem;
+}
+
+.rounded-circle {
+  border: 2px solid #ccc;
+}
+
+button {
+  font-size: 0.9rem;
+}
+/* --------------- */
+.card1 {
+  background-color: #04356f;
+  padding: 20px;
+  /* border-radius: 8px !important; */
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+}
+
+
+.card1 img {
+  max-width: 100%;
+  height: auto;
+}
+
+.sendm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.checkin, .checkout, .breakout, .breakin {
+  background: #28a745;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+.checkout {
+  background: #dc3545;
+}
+
+.breakout {
+  background: orange;
+}
+
+@media (min-width: 768px) {
+  .card1 {
+    flex-direction: row;
+    padding: 20px 40px;
+  }
+
+  .checkin, .checkout, .breakout ,.breakin {
+    margin-bottom: 0;
+  }
+}
+
+.table1 {
+  border-radius: 10px;
+  background: #E2EBFC;
+  width: 100%;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+  border-spacing: 0 20px;
+  text-align: center;
+}
+
+.table-header th {
+  /* padding: 15px; */
+  text-align: center;
+  font-weight: 600;
+}
+
+.table-body td {
+  padding: 15px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.progress {
+  width: 100px;
+  height: 20px;
+  margin: 0 auto; /* Center the progress bar */
+}
+
+.but1 {
+  border-radius: 5px;
+  padding: 5px 10px;
+  text-align: center;
+  display: inline-block;
+  width: 100px; /* Give buttons a consistent width */
+}
+
+.table-body tr {
+  height: 47px; /* Ensure consistent row height */
+}
+
+tbody > tr > td {
+  vertical-align: middle; /* Vertically align content in rows */
+}
+
+
+
+
+
+
+
+.box1 {
+  width: 200px;
+  /* height: 200px;  */
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-sizing: border-box; /* ensures padding is included in the width/height */
+}
+
+.temp{
+  font-size: smaller;
+}
+.box1 p {
+  margin: 0; /* Remove default margins if they cause misalignment */
+}
+.group{
+  width: 15px;
+}
+
+
+.but1{
+  border-radius: 5px;
+}
+
+
+.table1 tbody tr {
+  margin-bottom: 10px; /* Adjust this value to increase/decrease spacing */
+}
+
+.table1 tbody tr td {
+  padding: 4px 0; 
+}
+
+
+
+.box2{
+  width: 300px;
+  /* max-width: 100%; */
+  height: auto;
+  background: white;
+  padding: 5px;
+  border-radius: 8px;
+
+}
+/* ------------- */
+.empstatus {
+  background-color: #f9fafb; /* light background color */
+  border-radius: 8px;
+}
+
+.dot {
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.shadow-sm {
+  box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
+}
+
+
+
+
+
+
+
+
+
+/* ----------------- */
+.firstcol{
+display: flex;
+flex-direction: column;
+align-items: start;
+padding-left: 23px;
+
+
+
+
+ 
+  padding-top: 30px;
+  gap: 30px;
+
+}
+.card2{
+  display: flex;
+justify-content: start;
+align-items: center;
+
+  /* width: 444px; */
+  /* height: 258px; */
+  padding-left: 60px;
+  padding-right: 60px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 5px;
+
+}
+
+
+/* ------------------ */
+.card3{
+  /* width: 445px; */
+  /* height: 251px; */
+  background: white;
+  border-radius: 8px;
+  /* margin-top: 46px; */
+padding-top: 12px;
+padding-bottom: 12px;
+/* padding: 8px; */
+height: 270px;
+
+}
+/*  */
+.card4{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  /* width: 440px; */
+  /* height: 185px; */
+  background: white;
+  border-radius: 8px;
+ padding: 2rem;
+  
+
+}
+
+
+.events{
+border-radius: 8px;
+
+
+  /* width: 440px; */
+  /* height: 185px; */
+  background: white;
+}
+
+/* ------------------ */
+.secondcol{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: 
+  #E2EBFC;
+  width: screen;
+  height: full;
+
+  gap: 30px;
+  border-radius: 10px;
+  margin-top: 12px;
+
+
+}
+.card5{
+  /* width: 444px; */
+  /* height: 125px; */
+  background: white;
+  border-radius: 8px;
+  padding-left: 100px;
+  padding-right: 100px;
+ 
+
+}
+
+.good{
+  color: white;
+  font-weight: 500;
+  font-size: 22px;
+  /* line-height: 40.48px; */
+}
+
+.goodwelcome{
+
+  text-align: left;
+}
+.firstcolbox{
+  background: 
+  #E2EBFC;
+  width: screen;
+  height: full;
+}
+
+.secondbox{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ 
+  width: 100;
+  height: 100;
+}
+.attend {
+  font-weight: 500;
+  font-size: 32px;
+  
+  padding-left: 80px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.card4 ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.card4 ul li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.card4 ul li::before {
+  content: "\2022";
+  color: red; 
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+.custom-hover:hover {
+  background-color: #E2EBFC;
+}
+
+.custom-link {
+  color: black !important; 
+}
+
+
+.container-fluid {
+  padding: 0;
+}
+
+.row {
+  margin: 0;
+}
+
+
+
+/* -------------------------------- */
+.col-lg-2,
+.col-lg-10 {
+  padding: 0;
+}
+
+.logo {
+  width: 150px;
+
+}
+
+.task{
+  font-weight: 500;
+  font-size: 32px;
+}
+
+/* styles.css or your main CSS file */
+.table.bg-white td, 
+.table.bg-white th {
+  background-color: white !important;
+}
+
+.table.bg-white {
+  border-color: white !important;
+}
+
+.table.bg-white tr:nth-of-type(odd) {
+  background-color: white !important;
+}
+
+.table.bg-white tr:nth-of-type(even) {
+  background-color: white !important;
+}
+.header {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+
+/* ------------------------- */
+h2 {
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.custom-table-container {
+  background-color: #e2ebfc;
+  padding: 1rem;
+  border-radius: 10px;
+  overflow-x: auto; /* Enable horizontal scrolling */
+  -webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS */
+}
+
+.custom-table {
+  min-width: 1000px;
+  background-color: #f8f9fa;
+  display: flex;
+  flex-direction: column;
+}
+
+.tabhead, .tabrow, .tbody {
+  display: flex;
+  flex-direction: column;
+}
+
+.tabrow, .task-row {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.tabcell {
+  flex: 1;
+  padding: 1rem;
+  
+}
+
+.tabhead .tabrow {
+  background-color: #007bff;
+  color: white;
+  margin-bottom: 0;
+  display: flex;
+  flex-direction: row;
+}
+
+.tabhead .tabcell {
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+}
+
+.tbody .task-row .tabcell {
+  background-color: #f8f9fa;
+}
+
+.icon {
+  color: #6c757d;
+}
+
+.project-name {
+  font-weight: 500;
+}
+
+.category {
+  font-size: 0.85rem;
+}
+
+.dropdown-toggle::after {
+  display: none;
+}
+
+.dropdown-menu {
+  min-width: auto;
+}
+
+.tabhead {
+  border-radius: 7px 7px 0 0;
+  display: flex;
+  overflow: hidden;
+}
+
+.custom-table .task-row:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.d-flex {
+  display: flex;
+  align-items: center;
+}
+
+.me-2 {
+  margin-right: 0.5rem;
+}
+
+/* Media queries for mobile responsiveness */
+@media (max-width: 768px) {
+  .tabrow, .task-row {
+    flex-direction: row;
+    min-width: 600px; /* Ensure the table cells don't collapse on smaller screens */
+  }
+
+  .tabcell {
+    flex: 1 0 150px; /* Flex-grow, flex-shrink, flex-basis */
+    padding: 0.5rem;
+  }
+
+  .tabhead .tabcell {
+    border-radius: 0;
+  }
+}
+/* ---------------------------------- */
+
+.due-date-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.due-date-container span {
+  display: block;
+  margin-bottom: 4px;
+}
+
+/* ------------------------------- */
+
+.btn-primary {
+  background-color: #007bff;
+  border: none;
+}
+
+.btn-danger {
+  background-color: #dc3545;
+  border: none;
+}
+
+.btn-warning {
+  background-color: #ffc107;
+  border: none;
+}
+
+.btn-success {
+  background-color: #28a745;
+  border: none;
+}
+/* ----------------------- */
+/* Sidebar visibility */
+.sidebar {
+  transition: transform 0.3s ease;
+}
+
+.sidebar.d-none {
+  transform: translateX(-100%);
+}
+
+.sidebar.d-block {
+  transform: translateX(0);
+}
+
+/* Mobile View */
+@media (max-width: 768px) {
+  .d-lg-none {
+    display: block !important;
+  }
+
+  .d-lg-block {
+    display: none !important;
+  }
+}
+
+
+/* ------------------------------- */
+
+.settings-table {
+  width: 100%; /* Increase the width to 80% of its container */
+  max-width: 900px; /* Optional: set a maximum width for larger screens */
+  margin: 0 auto;
+}
+
+.settings-row {
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 5px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  flex-wrap: wrap;
+}
+
+.settings-cell {
+  flex: 1;
+  padding: 10px;
+  min-width: 150px; /* Adjusted for more space */
+}
+
+.settings-card {
+  padding: 20px;
+  max-width: 900px; /* Optional: ensure card width aligns with table */
+}
+
+.settings-profile-pic {
+  width: 70px;
+  height: 70px;
+  border: 2px solid #ffffff;
+}
+
+.settings-container {
+  padding-top: 50px;
+}
+
+.settings-text-end {
+  text-align: right;
+}
+
+button {
+  background: none;
+  border: none;
+}
+
+@media (max-width: 768px) {
+  .settings-table {
+    width: 90%; /* Ensure it still fits well on mobile */
+  }
+
+  .settings-cell {
+    width: 100%;
+    text-align: left;
+    padding: 5px 10px;
+  }
+
+  .settings-text-end {
+    text-align: left;
+    width: 100%;
+    text-align: right;
+  }
+
+  .settings-card {
+    padding: 10px;
+    margin: 0 auto;
+  }
+
+  .settings-profile-pic {
+    width: 50px;
+    height: 50px;
+  }
+
+  .settings-container {
+    padding-top: 30px;
+  }
+}
+
+
+/* ------------------------ */
+.bde-background {
+  background-color: #E2EBFC;
+  min-height: 100vh;
+  padding: 2rem;
+}
+
+.bde-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0 0.25rem;
+}
+
+.bde-table tbody tr {
+  background-color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.bde-table td {
+  padding: 1rem;
+  vertical-align: middle;
+}
+
+.bde-profile-pic {
+  width: 40px;
+  margin-right: 10px;
+}
+
+.bde-label {
+  font-weight: bold;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+
+@media (max-width: 768px) {
+  .bde-table tbody tr {
+    display: block;
+    margin-bottom: 1rem;
+  }
+
+  .bde-label, .bde-value {
+    display: block;
+    width: 100%;
+    padding: 0.5rem 1rem;
+  }
+
+  .bde-label {
+    margin-bottom: 0.5rem;
+  }
+}
+/* --------------------- */
+
+.software-value {
+  display: flex;
+  align-items: center;
+}
+
+.software-profile-pic {
+  width: 40px;
+  height: 40px;
+  margin-right: 8px; /* Adjust as necessary */
+}
+
+.updrop-cell {
+  padding-left: 4px; /* Adjust as necessary */
+  padding-right: 4px; /* Adjust as necessary */
+}
+
+.updrop-icon {
+  width: 16px; /* Adjust size as necessary */
+  height: 16px; /* Adjust size as necessary */
+}
+
+
+
+.updrop-spacing {
+  margin-left: 10px; /* Adjust this value to increase or decrease the space */
+}
+
+/* ----------------------- */
+
+.custom-link {
+  display: block;
+  width: 100%;
+  text-align: left;
+  color: #000;
+  text-decoration: none;
+  padding: 2px 0; /* Reduced padding */
+  white-space: nowrap; /* Prevent text from wrapping */
+  overflow: hidden; /* Hide overflow text */
+  text-overflow: ellipsis; /* Show ellipsis for overflow text */
+}
+
+.custom-hover {
+  padding: 8px 0; /* Reduced padding */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.custom-hover:hover {
+  background-color: #f1f1f1; /* Adjust this color to match your design */
+}
+
+.custom-hover img {
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0; /* Prevent icon from shrinking */
+}
+
+.dropdown-container {
+  background-color: #e0e0e0; /* Adjust this color to match your design */
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.dropdown-item {
+  padding-left: 15px; /* Adjust the padding to ensure proper indentation */
+}
+
+.dropdown-item:hover {
+  background-color: #d0d0d0; /* Adjust this color to match your design */
+}
+/* -------------------------------- */
+
+/* Ensure the custom class is applied only in desktop view */
+@media (min-width: 992px) {
+  .custom-modal .modal-dialog {
+    max-width: 800px; /* Increase the width as needed */
+  }
+}
+
+
+/* --------------------------------- */
+.task-row.status-interested {
+  background-color: #ffff;
+}
+
+.task-row.status-call-me-later {
+  background-color: #ffff;
+}
+
+.task-row.status-rejected {
+  background-color: #ffff;
+}
+
+.task-row.status-no-response {
+  background-color: #ffff;
+}
+
+
+/* ------------------------- */
+
+/* SalesReport.css */
+/* styles.css */
+input[type="checkbox"].checkbox-interested {
+  accent-color: green;
+}
+
+input[type="checkbox"].checkbox-call-me-later {
+  accent-color: blue;
+}
+
+input[type="checkbox"].checkbox-rejected {
+  accent-color: red;
+}
+
+input[type="checkbox"].checkbox-no-response {
+  accent-color: orange;
+}
+
+
+/* -------------- */
+/* Add this to your CSS file */
+.status-indicator {
+  width: 15px;
+  height: 15px;
+  /* border-radius: 50%; */
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.status-interested {
+  background-color: green;
+}
+
+.status-call-me-later {
+  background-color: blue;
+}
+
+.status-rejected {
+  background-color: red;
+}
+
+.status-no-response {
+  background-color: orange;
+}
+
+
+/* ----------------------- */
+
+/* .chat-box {
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.message {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 10px;
+}
+
+.message.reply {
+  flex-direction: row-reverse;
+}
+
+.profile-pic {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.message.reply .profile-pic {
+  margin-left: 10px;
+  margin-right: 0;
+}
+
+.message-content {
+  background-color: #f1f1f1;
+  padding: 10px;
+  border-radius: 5px;
+  max-width: 70%;
+}
+
+.message-content .time {
+  display: block;
+  font-size: 12px;
+  color: #888;
+  margin-top: 5px;
+}
+
+.message-input {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.message-input input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.message-input button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+} */
+
+
+
+/* -------------------- */
+
+
+ 
+
+   .chatbot-container {
+    position: fixed;
+    bottom: 100px;
+    right: 20px;
+    width: 300px;
+    /* height: 500px; */
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    z-index: 1000;
+
+  }
+   
+
+
+
+
+
+
+
+
+
+
+  .chatbot-container.open {
+    transform: translateY(-100%);
+  }
+ 
+  .chatbot-header {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+ 
+  .profile-img {
+    border-radius: 50%;
+ 
+  }
+ 
+  .close-btn {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+   
+  }
+ 
+  .chatbot-body {
+    padding: 10px;
+    flex: 1;
+    overflow-y: auto;
+  }
+ 
+  .chat-message {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 10px;
+  }
+ 
+  .chat-message-right {
+    justify-content: flex-end;
+  }
+  .chat-img-right .chat-img {
+  float: right;
+  }
+ 
+  .chat-img {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+ 
+  }
+ 
+  .chat-bubble {
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    padding: 10px;
+    max-width: 70%;
+  }
+ 
+  .chat-time {
+    display: block;
+    font-size: 12px;
+    color: #888;
+    margin-top: 5px;
+  }
+ 
+  .chatbot-input {
+    display: flex;
+    padding: 10px;
+    background-color: #f1f1f1;
+    border-top: 1px solid #ccc;
+  }
+ 
+  .chatbot-input input {
+    flex: 1;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+ 
+  .chatbot-input button {
+    background-color: #007bff;
+    color: white;
+    width: 50px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  /* ------------------- */
+  .chat-container {
+    padding: 30px;
+    width: 100%;
+    height: 70%;
+    
+
+  }
+  .cht{
+    height: 80vh;
+    gap: 10px;
+  }
+
+  .rounded-custom {
+    border-radius: 0 12px 12px 12px; /* top-left, top-right, bottom-right, bottom-left */
+    background-color: #ebf1ff;
+  }
+  
+  .rounded-custom2 {
+    border-radius:  12px 0 12px 12px; /* top-left, top-right, bottom-right, bottom-left */
+    background-color: #ebf1ff;
+  }
+  
+  .chat-column {
+    margin-right: 15px; /* Adjust the value to set the desired gap */
+  }
+  
+  .callpopup{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:  100%;
+
+    background-color: red;
+  }
+  .modal-body{
+    width: 500px;
+  }
+
+
+  /* -------calling section */
+
+  .popup2{
+    width: 100%;
+  }
+
+  /* ------------- */
+  .breakout{
+    background: #d36020;
+  }
+  .breakin{
+    background: #534ecc;
+  }
+  
+
+/* ------- */
+.react-calendar {
+  border: none;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+
+/* ----------mail section */
+
+
+
+.email-box-container {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  margin: auto
+}
+ 
+.email-box {
+  max-width: 100%;
+  width: 900px;
+  background-color: #f2f6ff;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  padding: 20px;
+}
+ 
+.email-box-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+ 
+.email-box-header h2 {
+  margin: 0;
+  font-size: 24px;
+}
+ 
+.close-btn {
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+ 
+.email-box-body {
+  width: 100%;
+  padding: 20px;
+  background-color: white;
+}
+ 
+.email-input-group {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1px;
+}
+ 
+.email-input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 15px;
+  font-size: 16px;
+}
+ 
+.to-input {
+  flex: 1;
+  margin-right: 10px;
+}
+ 
+.cc-bcc-btn {
+  background: none;
+  border: none;
+  color: #666;
+  font-size: 14px;
+  cursor: pointer;
+}
+ 
+.subject-input {
+  margin-bottom: 15px;
+}
+ 
+.email-editor {
+  border: 1px solid #ddd;
+  min-height: 200px;
+  border-radius: 4px;
+  padding: 10px;
+  background-color: white;
+}
+ 
+.email-textarea {
+  width: 100%;
+  height: 150px;
+  border: none;
+  resize: none;
+  font-size: 14px;
+  outline: none;
+}
+ 
+.email-footer {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+}
+ 
+.font-style {
+  display: flex;
+  margin: 10px 30px;
+  box-shadow: 1px 2px 3px;
+  width: 230px;
+  padding: 0px 5px;
+  cursor: pointer;
+}
+ 
+.send-btn {
+  background-color: #4285f4;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 30px;
+  cursor: pointer;
+}
+ 
+.editor-toolbar {
+  display: flex;
+  align-items: center;
+  padding: 0px 10px;
+  cursor: pointer;
+}
+ 
+.editor-toolbar button {
+  background: none;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+ 
+/* Responsive Styles */
+ 
+ 
+@media screen and (max-width: 1200px) {
+  .email-box {
+    width: 700px;
+  }
+}
+ 
+ 
+@media screen and (max-width: 900px) {
+  .email-box {
+    width: 600px;
+  }
+ 
+  .email-input-group {
+    flex-direction: column;
+  }
+ 
+  .email-footer {
+    flex-direction: column;
+  }
+ 
+  .send-btn {
+    margin-top: 10px;
+    width: 100%;
+  }
+}
+ 
+ 
+@media screen and (max-width: 768px) {
+  .email-box {
+    width: 90%;
+    padding: 15px;
+  }
+ 
+  .email-input-group {
+    margin-bottom: 10px;
+  }
+ 
+  .editor-toolbar {
+    flex-wrap: wrap;
+  }
+}
+ 
+ 
+@media screen and (max-width: 600px) {
+  .email-box {
+    width: 95%;
+    padding: 10px;
+  }
+ 
+  .email-box-header h2 {
+    font-size: 20px;
+  }
+ 
+  .send-btn {
+    padding: 10px 20px;
+  }
+ 
+  .font-style {
+    width: 100%;
+    margin: 10px 0;
+  }
+}
+ 
+ 
+@media screen and (max-width: 400px) {
+  .email-box {
+    width: 100%;
+    padding: 5px;
+  }
+ 
+  .email-input {
+    font-size: 14px;
+    padding: 8px;
+  }
+ 
+  .send-btn {
+    padding: 8px 15px;
+  }
+ 
+  .email-box-header {
+    flex-direction: column;
+  }
+ 
+  .close-btn {
+    font-size: 16px;
+  }
+}
+
+/* calender holdiday */
+.holiday-tile {
+  background: red;
+  color: white;
+  border-radius: 100%;
+  width: 10px;
+  /* height: 10px; */
+}
+
+.paccount{
+font-size: smaller;
+}
+
+
+/* ----------- */
+/* index.css */
+/* General login container styling */
+/* Full-screen background */
+/* Full-screen background */
+/* Full-screen background */
+/* Login.css */
+/* Login.css */
+/* Login.css */
+.login-container {
+  position: relative;
+  height: 100vh;
+  background-image: url('assets/images/loginbg.png'); /* Optional */
+  background-size: cover;
+  background-position: center;
+  padding-right: 200px;
+  background-color: red; /* Optional background color for testing */
+  display: flex;
+  justify-content: center; /* Center content horizontally */
+  align-items: center;    /* Center content vertically */
+}
+
+.login-box {
+  /* background-color: rgba(255, 255, 255, 0.8); */
+  border-radius: 8px;
+  position: relative;
+  z-index: 1;
+  padding: 20px;
+}
+
+/* Adjust logo positioning */
+.logo-image {
+  position: absolute;
+  top: 20px; /* Adjust the vertical position */
+  right: 20px; /* Adjust the horizontal position */
+  width: 200px; 
+  height: auto;
+  z-index: 2;
+}
+
+/* Mobile responsive view */
+@media (max-width: 768px) {
+  .login-box {
+    width: 100% !important; /* Full width on mobile view */
+    max-width: 90%; /* Restrict width slightly with padding */
+    margin: 0 auto; /* Center the box horizontally */
+    padding: 20px; /* Adjust padding as needed */
+  }
+
+  .login-container {
+    padding-right: 0; /* Remove extra padding in mobile view */
+    padding-left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center the login box vertically */
+    align-items: center; /* Center the login box horizontally */
+  }
+}
+
+.resendotp{
+  color: #534ecc;
+}
+
+
+.custom-blue{
+  color: #0c257c;
+}
